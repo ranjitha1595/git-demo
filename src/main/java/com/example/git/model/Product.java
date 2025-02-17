@@ -4,6 +4,7 @@ public class Product {
     private int id;
     private String name;
     private String brand;
+    private int quantity;
     private int price;
 
     public int getId() {
@@ -36,5 +37,13 @@ public class Product {
 
     public void setBrand(String brand) {
         this.brand = brand;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
     }
 }
